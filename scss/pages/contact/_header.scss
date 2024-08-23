@@ -8,21 +8,22 @@
         padding: 23px;
     }
 
-    &_right{
+    &_right {
         display: flex;
         gap: 68.52px;
     }
 
-    &_link{
+    &_link {
         color: white;
     }
-    &_list{
+
+    &_list {
         color: white;
         gap: 70px;
         display: none;
     }
 
-    &_btn{
+    &_btn {
         padding: 11px 28px;
         background-color: white;
         color: rgba(223, 124, 20, 1);
@@ -32,17 +33,17 @@
 }
 
 @media screen and (min-width:850px) {
-    .header_list{
+    .header_list {
         align-items: center;
         display: flex;
     }
 
 
-    .header_btn2{
+    .header_btn2 {
         display: none
     }
 
-    .header_btn{
+    .header_btn {
         display: flex;
     }
 }
